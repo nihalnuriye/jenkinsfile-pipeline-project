@@ -9,5 +9,12 @@ pipeline {
                 echo 'not using shell in the Jenkinsfile'
             }
         }
+        stage('test') {
+            steps {
+                sh 'echo Adem'
+                sh 'echo Kubilay'
+                sh 'echo Nihal'
+            }
+            }
     }
 }
